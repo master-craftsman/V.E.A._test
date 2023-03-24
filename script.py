@@ -18,9 +18,9 @@ login_button.click()
 # email_button = WebDriverWait(browser, 10).until(EC.presence_of_element_located((By.XPATH, '//span[@class="Button2-Text" and text()="Почта"]')))
 # email_button.click()
 login_input = WebDriverWait(browser, 10).until(EC.presence_of_element_located((By.ID, 'passp-field-login')))
-login_input.send_keys('armanbeokash' + Keys.ENTER)
+login_input.send_keys('' + Keys.ENTER)
 password_input = WebDriverWait(browser, 10).until(EC.presence_of_element_located((By.ID, 'passp-field-passwd')))
-password_input.send_keys('Arman97NikBB' + Keys.ENTER)
+password_input.send_keys('' + Keys.ENTER)
 
 
 # Подождать загрузки страницы
